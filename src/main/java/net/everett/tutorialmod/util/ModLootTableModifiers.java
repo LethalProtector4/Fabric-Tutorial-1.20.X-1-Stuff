@@ -34,9 +34,9 @@ public class ModLootTableModifiers {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.5f))   // Chance of the item below being dropped
                         .with(ItemEntry.builder(ModItems.METAL_DETECTOR))   // The item being dropped
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); // the range of the amount of items dropped
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f))); // the range of the amount of items dropped
 
-                tableBuilder.pool(poolBuilder.build());
+                tableBuilder.pool(poolBuilder);
             }
 
             if(CREEPER_ID.equals(id)) {
@@ -44,9 +44,9 @@ public class ModLootTableModifiers {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.1f))   // Chance of the item below being dropped
                         .with(ItemEntry.builder(ModItems.COAL_BRIQUETTE))   // The item being dropped
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); // the range of the amount of items dropped
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f))); // the range of the amount of items dropped
 
-                tableBuilder.pool(poolBuilder.build());
+                tableBuilder.pool(poolBuilder);
             }
 
             if(ZOMBIE_ID.equals(id)) {
@@ -54,9 +54,9 @@ public class ModLootTableModifiers {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.025f))   // Chance of the item below being dropped
                         .with(ItemEntry.builder(ModItems.TOMATO))   // The item being dropped
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); // the range of the amount of items dropped
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f))); // the range of the amount of items dropped
 
-                tableBuilder.pool(poolBuilder.build());
+                tableBuilder.pool(poolBuilder);
             }
         });
 
