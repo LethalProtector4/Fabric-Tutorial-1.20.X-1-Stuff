@@ -69,6 +69,9 @@ public class ModItems {
     public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
             new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
 
+    public static final Item SNAIL_SPAWN_EGG = registerItem("snail_spawn_egg",
+            new SpawnEggItem(ModEntities.SNAIL, 0xa1ff96, 0x54F542, new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
