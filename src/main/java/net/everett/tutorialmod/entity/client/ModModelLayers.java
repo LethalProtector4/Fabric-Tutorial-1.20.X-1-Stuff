@@ -7,7 +7,4 @@ import net.minecraft.util.Identifier;
 public class ModModelLayers {
     public static final EntityModelLayer PORCUPINE =
             new EntityModelLayer(new Identifier(TutorialMod.MOD_ID, "porcupine"), "main");
-
-    public static final EntityModelLayer SNAIL =
-            new EntityModelLayer(new Identifier(TutorialMod.MOD_ID, "snail"), "main");
 }

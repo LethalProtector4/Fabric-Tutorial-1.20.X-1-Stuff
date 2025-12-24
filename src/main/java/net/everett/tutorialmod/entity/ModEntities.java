@@ -2,7 +2,6 @@ package net.everett.tutorialmod.entity;
 
 import net.everett.tutorialmod.TutorialMod;
 import net.everett.tutorialmod.entity.custom.PorcupineEntity;
-import net.everett.tutorialmod.entity.custom.SnailEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityDimensions;
@@ -17,11 +16,6 @@ public class ModEntities {
             new Identifier(TutorialMod.MOD_ID, "porcupine"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, PorcupineEntity::new)
                     .dimensions(EntityDimensions.fixed(0.9f, 0.9f)).build());   // Hitboxes
-
-    public static final EntityType<SnailEntity> SNAIL = Registry.register(Registries.ENTITY_TYPE,
-            new Identifier(TutorialMod.MOD_ID, "snail"),
-            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, SnailEntity::new)
-                    .dimensions(EntityDimensions.fixed(0.2f, 0.2f)).build());
 
     public static void registerModEntities() {
         TutorialMod.LOGGER.info("Registering Entities for " + TutorialMod.MOD_ID);

@@ -1,4 +1,4 @@
-// 1.20.2	2025-12-23T19:52:06.8821904	Tutorial Mod/Model Definitions
+// 1.20.2	2025-12-23T21:04:54.9105163	Tutorial Mod/Model Definitions
 2a8d008a809f38e68eccea32c23096824f276b87 assets\tutorialmod\models\item\ruby_leggings_quartz_trim.json
 3099a76a0bbb2a689862d322c8ea1973b2d837c0 assets\tutorialmod\models\item\ruby_pressure_plate.json
 430890fbcf2db7c6b7b703b18ca062d9b174ed64 assets\tutorialmod\models\item\coal_briquette.json
@@ -9,8 +9,8 @@ adc34350b7efaf373e4975c3758e7b880ede78cd assets\tutorialmod\models\item\ruby_sla
 69472e92e856588e8091eb6e44129489e646c19e assets\tutorialmod\blockstates\ruby_slab.json
 bcf47915c2fae223f4aef462a621fda8daab9830 assets\tutorialmod\models\block\corn_crop_stage4.json
 6997dd76cdb440715c14eacd322c7404561c461b assets\tutorialmod\models\item\ruby_hoe.json
-af912ab04408cfd43950413429080cbbfb4166ec assets\tutorialmod\models\item\ruby_leggings_lapis_trim.json
 7b94b2a1772f87aacc01c597dfd85b94a63300c6 assets\tutorialmod\models\block\ruby_stairs_inner.json
+af912ab04408cfd43950413429080cbbfb4166ec assets\tutorialmod\models\item\ruby_leggings_lapis_trim.json
 a2d5983cad7a3013cfed63e65fba36ce76160c3e assets\tutorialmod\models\block\ruby_button.json
 ab328a99e65fed08119dbb5356cd6c7edf239107 assets\tutorialmod\models\item\ruby_helmet_netherite_trim.json
 532ba68dc6954d736bc5f867e2e8bd22810cedd9 assets\tutorialmod\models\item\ruby_boots_redstone_trim.json
@@ -50,7 +50,6 @@ c4fb1971fbcf884dcf3d21c40988fd0365b2541d assets\tutorialmod\models\item\ruby_boo
 6e0c6b69a0d669e68369e8dca03a41dab0116274 assets\tutorialmod\models\item\ruby_chestplate_lapis_trim.json
 c530c1aabb34f764c985110f40b263d8e40e1b25 assets\tutorialmod\models\item\ruby_chestplate_diamond_trim.json
 b4b79fccaf55a39609c083bd7e29400cd5598557 assets\tutorialmod\models\block\tomato_crop_stage3.json
-63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\tutorialmod\models\item\snail_spawn_egg.json
 14b27e7921a3c5dd15e53a81069ce4a7caa525ee assets\tutorialmod\models\block\corn_crop_stage3.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\tutorialmod\models\item\porcupine_spawn_egg.json
 eca1e2536785a75f5ec88793a97be882b558dc85 assets\tutorialmod\models\block\ruby_door_bottom_left_open.json
@@ -137,8 +136,8 @@ eaa086e1e5925260a7f03536f97f291f57135a23 assets\tutorialmod\models\item\ruby_wal
 a6bcea2404322f59c9050612d5e7a6f93bfb4539 assets\tutorialmod\models\item\ruby_leggings_emerald_trim.json
 2f7aa7c65ec46676e3fa73faa9031b0ff0fd7d5b assets\tutorialmod\models\block\ruby_fence_side.json
 4b879059a35df6a0b723e17572764a25f627e22d assets\tutorialmod\models\block\ruby_door_top_left_open.json
-51873f8f87730b46b130fc3b1c61bb0c554d04a7 assets\tutorialmod\models\item\ruby_axe.json
 9bf4ea21309275e6ea9d5ed43210dd380deb8ff6 assets\tutorialmod\models\item\ruby_shovel.json
+51873f8f87730b46b130fc3b1c61bb0c554d04a7 assets\tutorialmod\models\item\ruby_axe.json
 f643f34a95274bef6bc781b8ba22b1969ff252e5 assets\tutorialmod\models\item\ruby_helmet_lapis_trim.json
 95a82443ae852ca998d9c1f7e8a22b4102b5a94d assets\tutorialmod\models\block\ruby_door_top_right.json
 8444238f04261c56864325fc5edb2ff814c1ea77 assets\tutorialmod\models\block\corn_crop_stage8.json

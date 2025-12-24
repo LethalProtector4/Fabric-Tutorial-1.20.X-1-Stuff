@@ -1,6 +1,6 @@
-// 1.20.2	2025-12-23T19:52:06.8841903	Tutorial Mod/Tags for minecraft:block
-557851e313abb0cef1734845a356572f1548a2b4 data\minecraft\tags\blocks\fence_gates.json
+// 1.20.2	2025-12-23T21:04:54.9125167	Tutorial Mod/Tags for minecraft:block
 6d699dbc87aadf988de9d94a6aaada632057338b data\minecraft\tags\blocks\fences.json
+557851e313abb0cef1734845a356572f1548a2b4 data\minecraft\tags\blocks\fence_gates.json
 c0c21dd37bc5740a0fd4b8d23b548084594c6c2e data\fabric\tags\blocks\needs_tool_level_5.json
 d9ba7539a6a059d73deb68fcdd10863270309163 data\minecraft\tags\blocks\mineable\pickaxe.json
 98668c3f8187e58f1c625ca05785aafaf4d526a7 data\tutorialmod\tags\blocks\metal_detector_detectable_blocks.json
